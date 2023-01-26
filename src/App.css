@@ -1,0 +1,49 @@
+.App {
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.App__title {
+  color: #e84959;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.App__form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.App__form-input {
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+  outline: none;
+}
+
+.App__form-btn {
+  color: white;
+  border: none;
+  background-color: #e84959;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.container-articles {
+  display: grid;
+  gap: 40px;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.App__not-result {
+  font-size: 25px;
+  background-color: rgb(230, 88, 88);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 0 30px 0 20px;
+}
